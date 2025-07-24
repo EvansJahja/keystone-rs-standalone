@@ -1,11 +1,10 @@
 [package]
 name = "keystone"
 version = "0.1.0"
-authors = ["Ta Thanh Dinh <tathanhdinh@gmail.com>"]
 description = "High-level bindings for Keystone assembler"
 edition = "2018"
 license-file = "LICENSE"
-repository = "https://github.com/EvansJahja/keystone-rs"
+repository = "https://github.com/EvansJahja/keystone-rs-standalone"
 readme = "README.md"
 keywords = ["assembler", "keystone"]
 
