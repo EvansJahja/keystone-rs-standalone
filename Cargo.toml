@@ -9,4 +9,4 @@ readme = "README.md"
 keywords = ["assembler", "keystone"]
 
 [dependencies]
-keystone-sys = { path = "keystone-sys" }
+keystone-sys = { version = "0.1.1" }
