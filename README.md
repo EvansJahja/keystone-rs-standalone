@@ -26,7 +26,7 @@ This project contains submodule, i.e.
 
 ## Sample
 ```rust
-use keystone::*;
+use keystone_standalone::*;
 
 fn main() {
     let engine = Keystone::from(Arch::X86, Mode::Bit32)
@@ -41,6 +41,13 @@ fn main() {
     println!("{}", asm);
 }
 ```
+
+## Migration
+
+The original project uses the `keystone` crate. When using this project, you have two options:
+
+1. (Recommended) change your import to `keystone_standalone`
+2. Alternatively, update your project's `Cargo.toml` and use rename dependency, i.e. `keystone = { package = "keystone-standalone", version = "0.1.0" }`
 
 ## Contributors
  - [@mteyssier](https://github.com/mteyssier)
