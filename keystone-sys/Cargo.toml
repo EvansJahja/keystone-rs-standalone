@@ -4,6 +4,7 @@ version = "0.1.1"
 description = "Low-level bindings for Keystone assembler"
 build = "build.rs"
 license = "MIT"
+edition = "2018"
 
 [dependencies]
 
